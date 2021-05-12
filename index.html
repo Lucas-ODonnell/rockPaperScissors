@@ -7,29 +7,53 @@
 		<title>Rock, paper, scissors</title>
 	</head>
 	<body>
-		<h1>Rock, Paper Scissors</h1>
+		<header>
+			<h1>Rock, Paper Scissors</h1>
+		</header>
 		<section>
-			<div class="score">
-				<div class="player-score">Player score goes here</div>
-				<div class="computer-score">Computer score goes here</div>
+			<div class="score-board">
+				<h2 id="score-header">Score</h2>
+				<div class="score">
+					<div class ="player-section">
+						<div id="player-score">Player: 0</div>
+						<i id="player-choice"></i>
+					</div>
+					<div class="computer-section">
+						<div id="computer-score">Computer: 0</div>
+						<i id="computer-choice"></i>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section>
 			<div class="game">
 				<div class="player-side">
+					<div>
 					<button id="player-rock">
 						<i class="fa fa-hand-rock fa-3x"></i>
 					</button>
+					</div>
+					<div>
 					<button id="player-paper">
 						<i class="fa fa-hand-paper fa-3x"></i>
 					</button>
+					</div>
+					<div>
 					<button id="player-scissors">
 						<i class="fa fa-hand-scissors fa-3x"></i>
 					</button>
+					</div>
 				</div>
 			</div>
 		</section>
 	</body>
-	<script src='script.js'></script>
+	<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+      Created by <a href="https://github.com/Lucas-ODonnell">Lucas O'Donnell</a> &copy
+      </p>
+    </div>
+  </footer>
+		<script src='script.js'></script>
 </html>
 
